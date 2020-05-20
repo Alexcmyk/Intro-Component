@@ -16,7 +16,7 @@
 
   <div class="container">
 
-    <div>
+    <div class="content">
       <h1> Learn to code by watching others</h1>
 
       <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
@@ -24,39 +24,43 @@
     </div>
 
     <div>
-      <div class="box">
+      <div class="box box-blue">
         <!-- Small Box -->
         <p>
           <strong>Try it free 7 days</strong>
           then $20/mo. thereafter
         </p>
       </div> <!-- / Small Box -->
+
+
+      <form class="box" id="form">
+        <div class="form-control">
+          <input type="text" id="firstName" placeholder="First Name" />
+          <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input type="text" id="lastName" placeholder="Last Name" />
+          <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input type="email" id="email" placeholder="Email Address" />
+          <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input type="password" id="password" placeholder="Password" />
+          <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+        <button>Claim your free trial</button>
+        <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
+      </form>
     </div>
-
-    <form class="box">
-      <div class="form-control">
-        <input type="text" id="firstName" placeholder="First Name" />
-        <small>First name cannot be empty</small>
-      </div>
-      <div class="form-control">
-        <input type="text" id="lastName" placeholder="Last Name" />
-        <small>Last name cannot be empty</small>
-      </div>
-      <div class="form-control">
-        <input type="email" id="email" placeholder="Email Address" />
-        <small>Email cannot be empty</small>
-        <small>Email is not valid</small>
-      </div>
-      <div class="form-control">
-        <input type="password" id="password" placeholder="Password" />
-        <small>Password cannot be empty</small>
-      </div>
-      <button>Claim your free trial</button>
-      <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
-    </form>
-
   </div>
-  <script src="./styles.css"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
