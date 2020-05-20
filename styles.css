@@ -128,6 +128,11 @@ input {
     margin-bottom: 10px;
 }
 
+.form-control.error input::placeholder {
+    color: hsl(0, 100%, 74%);
+}
+
+
 
 .form-control .error-icon {
     position: absolute;
@@ -145,7 +150,7 @@ input {
 
 input:focus {
     border: 1px solid hsl(248, 32%, 49%);
-} 
+}
 
 button {
     background-color: hsl(154, 59%, 51%);
@@ -210,6 +215,4 @@ small a {
         max-width: 90%;
         margin: 30px auto;
     }
-
-   ,container > 
 }
